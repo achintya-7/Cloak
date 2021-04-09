@@ -14,7 +14,7 @@ while cap.isOpened():
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
         # cv2.imshow("hsv", hsv)
 
-        # how to get HSV value;
+        # how to get HSV value?
         # lower HSV value: hue - 10, 100, 100 || higher HSV value: hue+10, 255, 255 || here it is 41
 
         red = np.uint8([[[0, 0, 255]]])
